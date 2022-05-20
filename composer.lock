@@ -1,33 +1,33 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eae4f90b904adf4984c457bed215d789",
+    "content-hash": "fe22ac79f94155d5e3899450a4bee80d",
     "packages": [
         {
             "name": "ircmaxell/php-cfg",
-            "version": "v1.0.x-dev",
+            "version": "v0.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ircmaxell/php-cfg.git",
-                "reference": "8300f78156bdde595d1700893fa29c68b9346b0c"
+                "reference": "acc7cbc82502b63e3efc97d720d1699d84e68b7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ircmaxell/php-cfg/zipball/8300f78156bdde595d1700893fa29c68b9346b0c",
-                "reference": "8300f78156bdde595d1700893fa29c68b9346b0c",
+                "url": "https://api.github.com/repos/ircmaxell/php-cfg/zipball/acc7cbc82502b63e3efc97d720d1699d84e68b7c",
+                "reference": "acc7cbc82502b63e3efc97d720d1699d84e68b7c",
                 "shasum": ""
             },
             "require": {
                 "nikic/php-parser": "^4.0",
-                "php": "^7.0",
+                "php": ">=7.4",
                 "phpdocumentor/graphviz": "^1.0.4"
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "*",
-                "phpunit/phpunit": "^6.0"
+                "phpunit/phpunit": "^8.0 || ^9.0"
             },
             "type": "library",
             "autoload": {
@@ -46,7 +46,11 @@
                 }
             ],
             "description": "A Control Flow Graph implementation for PHP",
-            "time": "2019-02-28 03:49:33"
+            "support": {
+                "issues": "https://github.com/ircmaxell/php-cfg/issues",
+                "source": "https://github.com/ircmaxell/php-cfg/tree/v0.6.0"
+            },
+            "time": "2021-04-12T17:11:08+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -2411,5 +2415,6 @@
     "platform": {
         "php": ">=7.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
